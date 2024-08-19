@@ -28,9 +28,18 @@ section#login {position: absolute;
     width: 250px;
     height: 500px;
     border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px  10px rgb(23, 22, 22);
 
 }
-section#login > div#imagem{
-    background: #5f2c82 url(../imagens/pexels-laup-2372876\ \(1\).jpg);
+section#login > div#imagem{display: block;
+    background: #5f2c82 url(../imagens/pexels-laup.jpg);
+    background-size: cover;
     height: 200px; 
+    background-position: bottom left;
 }
+section#login > div#formulario {display: block;
+    padding: 10px;
+
+}
+
