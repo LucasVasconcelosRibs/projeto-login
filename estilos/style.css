@@ -1,6 +1,6 @@
 @charset "UTF-8";
 /* paleta de cores
-Verde:49a09d
+Verde:#49a09d
 Lilas:#5f2c82
 */
 *{
@@ -41,7 +41,14 @@ section#login > div#imagem{display: block;
     background-position: bottom left;
 }
 section#login > div#formulario {display: block;
-    padding: 10px;
+    padding: 7px;
 
+}
+div#formulario > h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p {
+    font-size: 0.8em;
 }
 
