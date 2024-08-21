@@ -51,12 +51,35 @@ div#formulario > h1 {
 div#formulario > p {
     font-size: 0.8em;
 }
-
-form > input[type=submit] {
+input[type=submit] {
+    background-color: #22514f;
+    padding top: 5px;
     display: block;
-   font-size: 1em;
-   width: 100%;
-   height: 700px;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
-
-
+ input[type=submit]:hover {
+    background-color: #2e6e6c;
+}
+a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-color: #f8fefe;
+    border: 1px solid black;
+    color: black;
+    
+}
+    a.botao:hover {
+        background-color: #8fe1df;
+    }
